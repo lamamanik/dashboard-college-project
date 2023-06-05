@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+
+    <title>TMS | DASHBOARD</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="logo">
+              <img src="images/Picture2.png" alt="" />
+              <span class="ADMIN">ADMIN</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" onclick="Opensection('main-dashboard')">
+              <img class="dashlogo" src="images/icon/dashboard.png" alt="" />
+              <span class="nav-item">DASHBOARD</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="Opensection('main-update')">
+              <img
+                class="dashlogo"
+                onclick="Opensection('main-update')"
+                src="images/icon/update.png"
+                alt=""
+              />
+              <span class="nav-item">UPDATE TASKS</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="Opensection('main-note')">
+              <img class="dashlogo" src="images/icon/note.png" alt="" />
+              <span class="nav-item">NOTE</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="Opensection('main-leave')">
+              <img class="dashlogo" src="images/icon/leave.png" alt="" />
+              <span class="nav-item">APPLY LEAVE</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="logout">
+              <img class="dashlogo" src="images/icon/logout.png" alt="" />
+              <span class="nav-item">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ************************************************************************************************************************************************************* -->
+
+      <section class="feature" id="main-dashboard">
+        <div class="main-top">
+          <h1>Employees and Tasks</h1>
+        </div>
+        <div class="swiper mySwiper1">
+          <div class="slide-container swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="employee">
+                <img
+                  class="e-logo"
+                  src="images/profile/p6.jpg"
+                  alt="Employee Image"
+                />
+                <div class="e-text">
+                  <h2 class="employee-name">Manik lama</h2>
+                  <h6 class="employee-post">Marketing</h6>
+                </div>
+              </div>
+              <div class="e-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. hello my name is manik
+                  lama currently doing bachelor in southwestern stsate clz
+                </p>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="employee">
+                <img
+                  class="e-logo"
+                  src="images/profile/p2.jpg"
+                  alt="Employee Image"
+                />
+                <div class="e-text">
+                  <h2 class="employee-name">Manik lama</h2>
+                  <h6 class="employee-post">Ui designer</h6>
+                </div>
+              </div>
+              <div class="e-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit
+                  amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="employee">
+                <img
+                  class="e-logo"
+                  src="images/profile/p1.jpg"
+                  alt="Employee Image"
+                />
+                <div class="e-text">
+                  <h2 class="employee-name">Manik lama</h2>
+                  <h6 class="employee-post">Backend developer</h6>
+                </div>
+              </div>
+              <div class="e-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. hello my name is manik
+                  lama currently doing bachelor in southwestern stsate clz
+                </p>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="employee">
+                <img
+                  class="e-logo"
+                  src="images/profile/p1.jpg"
+                  alt="Employee Image"
+                />
+                <div class="e-text">
+                  <h2 class="employee-name">Manik lama</h2>
+                  <h6 class="employee-post">Frontend developer</h6>
+                </div>
+              </div>
+              <div class="e-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. hello my name is manik
+                  lama currently doing bachelor in southwestern stsate clz
+                </p>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="employee">
+                <img
+                  class="e-logo"
+                  src="images/profile/p1.jpg"
+                  alt="Employee Image"
+                />
+                <div class="e-text">
+                  <h2 class="employee-name">Manik lama</h2>
+                  <h6 class="employee-post">Coffee maker</h6>
+                </div>
+              </div>
+              <div class="e-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. hello my name is manik
+                  lama currently doing bachelor in southwestern stsate clz
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="tasks">
+          <div class="t-card">
+            <h2 class="task-no">complete all dashboard section design</h2>
+            <div class="text-button">
+              <p class="t-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                malesuada magna. Aenean ultrices dui vel magna bibendum, vel
+                varius metus fringilla. Nulla facilisi.
+              </p>
+              <button class="button-small">Edit</button>
+              <button class="button-small">Update</button>
+              <button class="button-small">Delete</button>
+            </div>
+          </div>
+
+          <div class="t-card swiper-slide">
+            <h2 class="task-no">create a database table with proper name</h2>
+            <div class="text-button">
+              <p class="t-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                malesuada magna. Aenean ultrices dui vel magna bibendum, vel
+                varius metus fringilla. Nulla facilisi.
+              </p>
+              <button class="button-small">Edit</button>
+              <button class="button-small">Update</button>
+              <button class="button-small">delete</button>
+            </div>
+          </div>
+
+          <div class="t-card swiper-slide">
+            <h2 class="task-no">Do validation of login/signup page using js</h2>
+            <div class="text-button">
+              <p class="t-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                malesuada magna. Aenean ultrices dui vel magna bibendum, vel
+                varius metus fringilla. Nulla facilisi.
+              </p>
+              <button class="button-small">Edit</button>
+              <button class="button-small">Update</button>
+              <button class="button-small">Delete</button>
+            </div>
+          </div>
+
+          <div class="t-card swiper-slide">
+            <h2 class="task-no">Make a coffee for all staff members</h2>
+            <div class="text-button">
+              <p class="t-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                malesuada magna. Aenean ultrices dui vel magna bibendum, vel
+                varius metus fringilla. Nulla facilisi.
+              </p>
+              <button class="button-small">Edit</button>
+              <button class="button-small">Update</button>
+              <button class="button-small">Delete</button>
+            </div>
+          </div>
+
+          <div class="t-card swiper-slide">
+            <h2 class="task-no">Buy office material from stationey</h2>
+            <div class="text-button">
+              <p class="t-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                malesuada magna. Aenean ultrices dui vel magna bibendum, vel
+                varius metus fringilla. Nulla facilisi.
+              </p>
+              <button class="button-small">Edit</button>
+              <button class="button-small">Update</button>
+              <button class="button-small">Delete</button>
+            </div>
+          </div>
+
+          <div class="t-card swiper-slide">
+            <h2 class="task-no">finish designing of all frontend pages</h2>
+            <div class="text-button">
+              <p class="t-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                malesuada magna. Aenean ultrices dui vel magna bibendum, vel
+                varius metus fringilla. Nulla facilisi.
+              </p>
+              <button class="button-small">Edit</button>
+              <button class="button-small">Update</button>
+              <button class="button-small">Delete</button>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- ********************************************************************************************************************************************************************************************************* -->
+
+      <section class="feature" id="main-update"></section>
+      <section class="feature" id="main-note"></section>
+      <section class="feature" id="main-leave"></section>
+    </div>
+  </body>
+
+  <!-- Swiper JS -->
+
+  <script src="swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="index.js"></script>
+</html>
